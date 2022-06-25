@@ -10,9 +10,9 @@ def load_image(image_file):
 	return img
 
 night2day = False
-st.title("Image transfer")
-st.write("Blog [link](https://medium.com/@nattakorn2713/image-transfer-night-to-day-and-day-to-night-2086edc6b298)")
-st.write("Github [link](https://github.com/TENet1010/deploy_m2d)")
+st.title("Image transfer N2D and D2N")
+st.write("Blog: [link](https://medium.com/@nattakorn2713/image-transfer-night-to-day-and-day-to-night-2086edc6b298)")
+st.write("Github: [link](https://github.com/TENet1010/deploy_m2d)")
 menu = ["day to Night","Night to day"]
 choice = st.sidebar.selectbox("Menu",menu)
 
